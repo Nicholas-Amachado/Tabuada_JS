@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+body{ /*Corpo da pagina*/
+    text-align: center;
+    padding: 2rem;
+    min-height: 100vh;
+    /* O VH É USADO PQ O PARAMETRO QUE ELE LEVA É A JANELA DE VISULIZAÇÃO DO DISPOSITIVO, SEM TER UM TAMANHO FIXO IGUAL O PX, O VH É BEM USADO PARA LAYOUT RESPONSIVO.JÁ QUE SE PASSA UM POUCO NO MONITOR GRANDE, TAMBEM SERA UM POUCO EM MONITOR PEQUENO, POR SE ESPELHA NA JANELA E NÃO EM UM TAMANHO FIXO*/
+    background: linear-gradient(180deg, #dd3030 10%, #3F24DD 98%);
+    color: #fff;
+}
+
+h2{ /*titulos da pagina*/
+    margin-bottom: 1rem;
+    font-size: 50px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+#multiplicacao{ /*sessao da multiplicacao*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    color: #333;
+    border-radius: 1rem;
+}
+
+.form_controle{ /*container dos inputs*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin: 0 1rem;
+}
+
+.form_controle label{ /*label dos inputs*/
+    margin-bottom: 0.6rem;
+    font-size: 0.8rem;
+    font-weight: bold ;
+}
+
+.form_controle input{ /*inputs*/
+    margin-bottom: 1rem;
+    flex: 1;
+    padding: 0.6rem 0.4rem;
+    width: 50px;
+    border: #948e8e solid 1px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#multiplicacao input[type = "submit"]{ /*botão*/
+    max-height: 50px;
+    padding: 0.6rem 1.2rem;
+    background-color: #333;
+    color: #fff;
+    border-color: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#multiplicacao input[type = "submit"]:hover{/*botão com o mouse em cima*/
+    background-color: #0e0e0e;
+}
+
+
+#tabela_multiplicacao{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin: 1rem auto;
+    padding:2rem 1rem;
+    background-color: #fff;
+    color: #333;
+    border-radius: 1rem;
+}
+
+.row{
+    border: 1px #ccc solid;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.row:last-child{
+    border-bottom: 1px #ccc solid;
+
+}
+
+.row .resultado{
+    margin-left: 0.4rem;
+}
+
+#paragrafo_multiplicacao{
+    letter-spacing: 0.5px;
+    font-size: 18px;
+}
+
+
