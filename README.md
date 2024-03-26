@@ -1,6 +1,10 @@
 # Tabuada_JS
 Tabuada usada para treinar as habilidade com o JS
 
+# Link para o Site
+
+https://dynamic-mochi-e8f4c6.netlify.app/
+
 _________________Gravação_________________
 
 
